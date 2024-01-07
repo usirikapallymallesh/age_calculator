@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to top left,
+    rgb(251, 255, 2),
+    #ffdd01,
+    rgb(238, 161, 18)
+  );
+  font-family: "Poppins", sans-serif, Arial, Helvetica, sans-serif;
+}
+.input_form {
+  height: 50%;
+  width: 50%;
+  background: linear-gradient(to top left, white, rgb(248, 53, 39));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.input_form:hover {
+  box-shadow: 10px 10px 10px #696464;
+}
+.input_form > h1 {
+  margin: 10px 0;
+  font-size: 45px;
+}
+.input_form > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.input_form > input {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-size: 19px;
+  background-color: white;
+  border: 2px solid lightcoral;
+  font-weight: 500;
+  color: #637f9e;
+}
+.input_form > input:hover {
+  box-shadow: 0px 0px 10px #686a6a;
+}
+.input_form > input::placeholder {
+  background-color: red;
+}
+.input_form > button {
+  padding: 10px 90px;
+  border-radius: 20px;
+  background-color: blue;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+}
+.input_form > button:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
